@@ -51,6 +51,11 @@
     <artifactId>acme</artifactId>
     <name>ACME demo 6.5</name>
     <packaging>pom</packaging>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/acme.git</connection>
+        <url>scm:git:git@github.com:Jahia/acme.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/acme.git</developerConnection>
+    </scm>
     <repositories>
         <repository>
             <id>jahia-public</id>
